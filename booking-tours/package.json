@@ -1,0 +1,20 @@
+{
+  "name": "booking-tours",
+  "version": "1.0.0",
+  "description": "Booking tours",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "production": "SET NODE_ENV=production & nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.3",
+    "morgan": "^1.10.0",
+    "slugify": "^1.6.0",
+    "validator": "^13.6.0"
+  }
+}

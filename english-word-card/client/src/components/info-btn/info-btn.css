@@ -1,0 +1,13 @@
+.info-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    outline: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.info-btn img {
+    width: 30px;
+}
